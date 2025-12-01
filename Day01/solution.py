@@ -27,8 +27,7 @@ with open("input.txt") as file:
     for line in file:
         direction = line[:1]
         numberOfTurns = int(line[1:])
-        print(f"dial: {dial}, {numberOfTurns}({direction})")
-        print("zero: ", counterZero)
+        
         for i in range(0, numberOfTurns, 1):
             if direction == 'L':
                 dial = (dial - 1) % 100
