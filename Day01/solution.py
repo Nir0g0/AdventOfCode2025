@@ -1,7 +1,8 @@
+# Star 1
+
 counterZero = 0
 dial = 50
 
-# Star 1
 with open("input.txt") as file:
     for line in file:
         direction = line[:1]
@@ -15,6 +16,7 @@ with open("input.txt") as file:
         if dial == 0: counterZero += 1
 
 print(counterZero)
+
 
 # Star 2
 
